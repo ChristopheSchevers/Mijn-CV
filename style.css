@@ -33,6 +33,16 @@ h2 {
     background-image: linear-gradient(#666, #ddd);
 }
 
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+i, i:visited {
+    color: #333;
+}
+
 p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
