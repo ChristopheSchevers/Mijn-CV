@@ -61,7 +61,29 @@ img {
 
 .tech {
     grid-area: 3 / 3 / 4 / 4;
-    background-image: linear-gradient(#666, #ddd);;
+    background-image: linear-gradient(#999, #444);;
+}
+
+.brands {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.fa-html5 {
+    color: blue;
+}
+
+.fa-css3-alt {
+    color: orange;
+}
+
+.fa-js-square {
+    color: yellow;
+}
+
+.fa-php {
+    color: #8892be;
 }
 
 .skills {
@@ -88,6 +110,7 @@ img {
 }
 
 .footer {
+    font-family: 'Courier New', Courier, monospace;
     margin: 0;
     text-align: center;
     padding: 1em;
